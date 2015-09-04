@@ -42,7 +42,7 @@ public class Solver<M>
 	// Find the solution with the minimal number of moves?
 	protected boolean minimalMoves = false;
 
-	// Can we revisit a state? Or should we keep track to avoid repitition.
+	// Can we revisit a state? Or should we keep track to avoid repetition.
 	protected boolean revisitStates = false;
 
 	// The maximum number of solutions to search for.
@@ -155,11 +155,11 @@ public class Solver<M>
 
 	/**
 	 * Set whether we can revisit a state? Or should we keep track to avoid
-	 * repitition.
+	 * repetition.
 	 * 
 	 * @param revisitStates
 	 *        Can we revisit a state? Or should we keep track to avoid
-	 *        repitition.
+	 *        repetition.
 	 */
 	public void setRevisitStates( boolean revisitStates )
 	{
